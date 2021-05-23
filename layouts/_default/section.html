@@ -1,0 +1,5 @@
+default section
+{{ range $.Paginator.Pages }}
+<a href={{.Permalink}}>{{.}}</a>
+{{end}}
+{{.Title}}

@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+<div>Hello</div>
+
+<ul>
+    {{ range .Paginator.Pages }}
+    {{.}}
+    {{end}}
+
+
+</ul>
+<div>
+    {{ range $key, $taxonomy := .Site.Taxonomies.college }}
+    <li><a href="{{ "/" | relLangURL}}{{ $key | urlize }}">{{ $key }}</a> </li>
+    {{ end }}
+
+</div>
+
+
+{{ partial "footer.html" . }}

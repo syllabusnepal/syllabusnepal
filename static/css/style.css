@@ -1,0 +1,30 @@
+.collection a:nth-child(1n) {
+	background-color: #ef4444;
+}
+.collection a:nth-child(2n) {
+	background-color: #22c55e;
+}
+.collection a:nth-child(3n) {
+	background-color: #6d28d9;
+}
+.collection a:nth-child(4n) {
+	background-color: #ea580c;
+}
+.collection a:nth-child(5n) {
+	background-color: #db2777;
+}
+.collection a:nth-child(6n) {
+	background-color: #16a34a;
+}
+.collection a:nth-child(7n) {
+	background-color: #b91c1c;
+}
+.collection a:nth-child(8n) {
+	background-color: #10b981;
+}
+.collection a:nth-child(9n) {
+	background-color: #2563eb;
+}
+.collection a:nth-child(10n) {
+	background-color: #e11d48;
+}

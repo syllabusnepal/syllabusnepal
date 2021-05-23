@@ -1,0 +1,13 @@
+<h1>layouts/college/terms</h1>
+List of all {{ .Type  }}
+{{.}}
+<div>
+    <ol>
+        {{ range .Pages }}
+        <li>
+            <a href="{{.Permalink}}">{{.Title}} / {{.Name}}</a>
+            {{.}}
+        </li>
+        {{ end }}
+    </ol>
+</div>
