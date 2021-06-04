@@ -1,19 +1,8 @@
 {{ partial "header.html" . }}
-<div>Hello</div>
-
 <ul>
-    {{ range .Paginator.Pages }}
-    {{.}}
+    {{ range .Data.Pages }}
+    <li><a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a></li>
     {{end}}
 
-
 </ul>
-<div>
-    {{ range $key, $taxonomy := .Site.Taxonomies.college }}
-    <li><a href="{{ "/" | relLangURL}}{{ $key | urlize }}">{{ $key }}</a> </li>
-    {{ end }}
-
-</div>
-
-
 {{ partial "footer.html" . }}

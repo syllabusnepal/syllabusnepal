@@ -1,7 +1,3 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-
-[taxonomies]
-colleges = "college"
-subjects = "subject"
+title = "Syllabus Nepal"

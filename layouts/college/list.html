@@ -1,5 +1,0 @@
-<ul>
-    {{ range $key, $taxonomy := .Site.Taxonomies.college }}
-    <li><a href="{{ "/college/" | relLangURL}}{{ $key | urlize }}">{{ $key }}</a> </li>
-    {{ end }}
-</ul>
