@@ -1,5 +1,8 @@
-default section
-{{ range $.Data.Pages }}
-<a href={{.Permalink}}>{{.}}</a>
+{{define "main"}}
+<div>{{.Title}}</div>
+<ul>
+    {{ range $.Data.Pages }}
+    <li><a class="collection" href={{.Permalink}}>{{.Title}}</a></li>
+    {{end}}
+</ul>
 {{end}}
-{{.Title}}

@@ -1,2 +1,5 @@
-<div>Single "default": "",</div>
+{{ define "main" }}
 {{.Title}}
+{{$styles := resources.Get "css/tailwind.css"}}
+{{$styles}}
+{{ end }}

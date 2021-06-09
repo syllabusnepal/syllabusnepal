@@ -1,0 +1,15 @@
+{{$styles := resources.Get "css/tailwind.css"}}
+
+{{/*  <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>  */}}
+{{/*  <link rel="stylesheet" href="/assets/css/colors.css" type="text/css">
+<link rel="stylesheet" href="/assets/css/taiwind.css" type="text/css">
+<link rel="stylesheet" href="http://localhost:5000/tailwind.min.css" type="text/css">  */}}
+{{/*  {{ with partialCached "func/style/GetMainCSS" "style/GetMainCSS" }}
+<link rel="stylesheet" href="{{ .RelPermalink }}">
+{{ end }} */}}
+{{ if .Site.IsServer }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+{{ else }}
+{{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+{{ end }}
