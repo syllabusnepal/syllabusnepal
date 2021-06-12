@@ -1,0 +1,16 @@
+.holder {
+	position: relative;
+}
+
+.center {
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.mx-1\/10 {
+	margin-left: 10%;
+	margin-right: 10%;
+}

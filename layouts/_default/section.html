@@ -1,8 +1,12 @@
 {{define "main"}}
-<div>{{.Title}}</div>
-<ul>
+{{/*  <div>{{.Title}}</div> */}}
+{{ partial "breadcrumb" . }}
+<div class="flex flex-wrap justify-center collection mx-1/10">
     {{ range $.Data.Pages }}
-    <li><a class="collection" href={{.Permalink}}>{{.Title}}</a></li>
+    <a class="mx-2 my-2 font-sans text-2xl font-normal text-center text-white rounded-lg holder w-36 h-36"
+        href="{{.Permalink}}" title="{{.Title}}">
+        <p class="center">{{ .Params.short_title }}</p>
+    </a>
     {{end}}
-</ul>
-{{end}}
+</div>
+{{ end }}

@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{.Title}}
-{{$styles := resources.Get "css/tailwind.css"}}
-{{$styles}}
+{{/*  {{.Title}} */}}
+{{ partial "breadcrumb" . }}
+{{.Content}}
 {{ end }}

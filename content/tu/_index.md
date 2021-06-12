@@ -1,4 +1,4 @@
 ---
 Title: Tribhuvan University
-ShortTitle: TU
+short_title: TU
 ---

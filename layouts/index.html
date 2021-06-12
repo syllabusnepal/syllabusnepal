@@ -1,8 +1,10 @@
 {{define "main" }}
-<ul>
-    {{ range .Data.Pages }}
-    <li><a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a></li>
+<div class="flex flex-wrap justify-center collection mx-1/10">
+    {{ range $.Data.Pages }}
+    <a class="mx-2 my-2 font-sans text-2xl font-normal text-center text-white rounded-lg holder w-36 h-36"
+        href="{{.Permalink}}" title="{{.Title}}">
+        <p class="center">{{ .Params.short_title }}</p>
+    </a>
     {{end}}
-
-</ul>
+</div>
 {{ end }}

@@ -1,5 +1,5 @@
 /* Subs*/
-.collection a:nth-child(1n) {
+.collection a:nth-child(n) {
 	background-color: #6d28d9;
 }
 .collection a:nth-child(2n) {
@@ -31,7 +31,7 @@
 }
 
 /*-Unis-*/
-
+/* 
 .collection a:nth-child(1n) {
 	background-color: #ef4444;
 }
@@ -61,9 +61,9 @@
 }
 .collection a:nth-child(10n) {
 	background-color: #e11d48;
-}
+} */
 
-/*-course-*/
+/* -course-
 .collection a:nth-child(1n) {
 	background-color: #16a34a;
 }
@@ -92,5 +92,6 @@
 	background-color: #22c55e;
 }
 .collection a:nth-child(10n) {
-	background-color: #6d28d9;
+	background-color: #6d28d9; 
 }
+*/

@@ -16,7 +16,7 @@
 {{/* We prepare a slice of resources to be concatenated as one */}}
 {{ $assets_to_concat := slice }}
 {{/* We add locale css files to the slice in the proper order */}}
-{{ range slice "_tailwind.css" "_colors.css"}}
+{{ range slice "_tailwind.css" "_colors.css" "_style.css" "_markdown.css"}}
 {{ with partialCached "func/style/GetResource" . . }}
 {{ $assets_to_concat = $assets_to_concat | append . }}
 {{ end }}
