@@ -62,6 +62,12 @@ Now that you're a part of the Syllabus Nepal's community, you can keep participa
 
 You can contribute to the Syllabus Nepal's content and site in several ways.
 
+### 📣 Discussions
+
+Discussions are where we have conversations.
+
+If you'd like help troubleshooting a PR you're working on, have a great new idea, want to share something amazing, or suggest addition/update of content or feature, join us in [discussions](https://github.com/syllabusnepal/syllabusnepal/discussions).
+
 ### 🪲 Issues
 
 Issues are used to track tasks that contributors can help with.
