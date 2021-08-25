@@ -41,3 +41,8 @@ Feel free to check [issues page](https://github.com/mukundshah/syllabusnepal/iss
 
 Copyright © 2021 [Syllabus Nepal](https://syllabus-np.netlify.app)<br/>
 This project is [BSD-3-Clause](https://github.com/mukundshah/syllabusnepal/blob/main/LICENSE) licensed.
+
+## Acknowledgments
+
+-  [Coursicle](https://www.coursicle.com/) (Inspiration)
+-  [@theNewDynamic](github.com/theNewDynamic/gohugo-theme-ananke) ([Code used to link CSS](https://github.com/mukundshah/syllabusnepal/tree/main/layouts/partials/func/style))
