@@ -18,16 +18,20 @@
 </a>
 </p>
 
-## About
+## 🌟 About
 
-## Code Contributors
+This project is inspired from [Coursicle](https://www.coursicle.com/) in many aspects.
+
+I started this project with a idea of having syllabus of all the courses available through out all the universities and boards of Nepal at one collective place. This is to ease the accessibility of such materials.
+
+## 💻 Code Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
 
 -  [@mukundshah](https://github.com/mukundshah/) - Project Author
 -  [@jenisha9](https://github.com/jenisha9) - Logo
 
-## Content Contributors
+## 📃 Content Contributors
 
 [Check the contributing guide.](https://github.com/mukundshah/syllabusnepal/blob/main/CONTRIBUTING.md)
 
