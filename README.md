@@ -52,7 +52,8 @@ Feel free to check [issues page](https://github.com/syllabusnepal/syllabusnepal/
 ## 📝 License
 
 Copyright © 2021 [Syllabus Nepal](https://syllabus-np.netlify.app)<br/>
-This project is [BSD-3-Clause](LICENSE) licensed.
+The source code of this project is [MIT](LICENSE-CODE) licensed; <br/>
+and, the contents of this project is [Creative Commons BY-SA 4.0](LICENSE) licensed.
 
 ## Acknowledgments
 
