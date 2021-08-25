@@ -1,7 +1,8 @@
 <p align="center">
- <img width="150px" src="./Syllabus.NP.svg" align="center" alt="Syllabus Nepal" />
+ <a href="https://syllabus-np.netlify.app">
+ <img height="100px" src="./Syllabus.NP.svg" align="center" alt="Syllabus Nepal" />
  <h2 align="center">Syllabus Nepal</h2>
- <!-- <hr/> -->
+ </a>
  <p align="center"><b><i>A collection of syllabus of all courses from all universities of Nepal.</i></b></p>
 </p>
 
