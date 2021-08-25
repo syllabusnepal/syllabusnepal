@@ -26,6 +26,12 @@ This project is inspired from [Coursicle](https://www.coursicle.com/) in many as
 
 I started this project with a idea of having syllabus of all the courses available through out all the universities and boards of Nepal at one collective place. This is to ease the accessibility of such materials.
 
+## ⚒️ To-Do
+
+-  Favicon
+-  Mobile Responsive UI
+-  and a lot more...
+
 ## 💻 Code Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
@@ -33,7 +39,7 @@ This project exists thanks to all the people who contribute. [[Contribute](CONTR
 -  [@mukundshah](https://github.com/mukundshah/) - Project Author
 -  [@jenisha9](https://github.com/jenisha9) - Logo
 
-## 📃 Content Contributors
+## 📃 Content Contribution
 
 [Check the contributing guide.](CONTRIBUTING.md)
 
