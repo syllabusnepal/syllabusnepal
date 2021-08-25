@@ -1,3 +1,43 @@
-# Syllabus Nepal
+<p align="center">
+ <img width="150px" src="./Syllabus.NP.svg" align="center" alt="Syllabus Nepal" />
+ <h2 align="center">Syllabus Nepal</h2>
+ <!-- <hr/> -->
+ <p align="center"><b><i>A collection of syllabus of all courses from all universities of Nepal.</i></b></p>
+</p>
 
-### _**A collection of syllabus of all courses from all universities of Nepal.**_
+<p align="center">
+<a href="https://syllabus-np.netlify.app">
+<img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fsyllabus-np.netlify.app">
+<a>
+<span>&nbsp;&nbsp;</span>
+<a href="https://github.com/mukundshah/syllabusnepal/issues">
+<img alt="Issues" src="https://img.shields.io/github/issues/mukundshah/syllabusnepal?color=2563EB">
+<a>
+<span>&nbsp;&nbsp;</span>
+<img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/c3746156-e5f8-4928-bf6d-1b46e592e565/deploy-status">
+</a>
+</p>
+
+## About
+
+## Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+
+-  [@mukundshah](https://github.com/mukundshah/) - Project Author
+-  [@jenisha9](https://github.com/jenisha9) - Logo
+
+## Content Contributors
+
+[Check the contributing guide.](https://github.com/mukundshah/syllabusnepal/blob/main/CONTRIBUTING.md)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome.<br/>
+Feel free to check [issues page](https://github.com/mukundshah/syllabusnepal/issues) if you want to contribute.<br/>
+[Check the contributing guide.](https://github.com/mukundshah/syllabusnepal/blob/main/CONTRIBUTING.md)
+
+## 📝 License
+
+Copyright © 2021 [Syllabus Nepal](https://syllabus-np.netlify.app)<br/>
+This project is [BSD-3-Clause](https://github.com/mukundshah/syllabusnepal/blob/main/LICENSE) licensed.
