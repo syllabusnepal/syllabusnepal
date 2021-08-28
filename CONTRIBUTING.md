@@ -34,6 +34,28 @@ If you want to contribute to website's source code or both source code and conte
 
 Go ahead. Fork the repo and start making changes.
 
+Assuming that you have installed all the required tools,
+
+1. Fork the repo.
+2. Clone your forked copy.
+3. Open two terminals in the the same directory, and run theses commands:
+
+Terminal 1:
+
+```bash
+hugo server -D --log --disableFastRender
+```
+
+Terminal 2:
+
+```bash
+npx tailwindcss -o assets/css/_tailwind.css --watch --jit --purge="./layouts/**/*.html"
+```
+
+Running `tailwindcss` with `--watch` and `--jit` allows to use the hot-reload of CSS.
+
+4. Now, go to http://localhost:1313/ in your browser. You should now have the website running in your browser with hot-reload.
+
 ### Make your update:
 
 Make your changes to the file(s) you'd like to update.
